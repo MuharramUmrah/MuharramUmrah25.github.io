@@ -1,0 +1,435 @@
+body{
+	background-color: #353c73;
+	font-family: Verdana, Tahoma, traditional al arabic;
+	font-size: 12px;
+	color: #dbcf93;
+}
+
+/*pengaturan layout utama*/
+#layout{
+	background: #fff;
+	width: 1200px;
+	margin: auto;
+	text-align: left;
+	padding: 2px;
+	border-radius: 5px;
+}
+
+#header{
+	width: 100%;
+	height: 400px;
+	background-color: #02a2d8;
+	position: relative;
+}
+
+.header{
+	width: 100%;
+	max-height:400px;
+}
+
+/*bagian navigasi*/
+#menu{
+	width: 99.9%;
+	height: 40px;
+	background-color: #0e1c54;
+	position: relative;
+	border: 1px solid #08123b;
+}
+
+#menu ul{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+#menu ul li{
+	float: left;
+}
+
+#menu ul li a{
+	float: left;
+	color: #d4d4d4;
+	padding: 12px 40px;
+	text-decoration: none;
+	background: #0e1c54;
+	border: 1px solid #08123b;
+	text-shadow: 3px 2px 6px #becae6;
+}
+
+#menu ul li a:hover{
+	color: #becae6;
+	background: #3C4042;
+}
+
+/*pengaturan text bergerak*/
+#textbergerak{
+	width: 100%;
+	height: 25px;
+	font-size: 20px;
+	font-family: Monotype Corsiva;
+	margin: 3px 0 0px 0;
+	background-color: #c5c8e3;
+	color: #0e1c54;
+	position: relative;
+}
+
+
+#sidebar{
+	margin-top: 4px;
+	margin-left: 10px;
+	padding: 6px;
+	width: 27%;
+	background-color: : #6f76b0;
+	position: relative;
+	float: right;
+	/*memberikan garis putus-putus*/
+	border-style: dotted;
+	border-width: 1px;
+}
+
+/*pengaturan widget sidebar*/
+.widged{
+	width: 100%;
+	background-bottom: 5px;
+	background: #c5c8e3;
+	border-top: 1px solid #DFDFDF;
+	border-bottom: 1px solid #DFDFDF;
+	border-right: 1px solid #DFDFDF;
+	border-left: 1px solid #DFDFDF;
+	font-size: 100%;
+	margin: 0px 0px 5px 0px;
+}
+
+/*pengaturan ukuran iklan dg gambar pada widged*/
+#ganbariklan{
+	width: 99.9%;
+	border: 3px solid #172d52;
+	border-radius: 5px;
+}
+/*pengaturan huruf judul widged*/
+
+.judulwidged{
+	background: #0e1c54;
+	padding: 5px 10px 5px 10px;
+	margin: 0px 0px 0px 0px;
+	text-align: center;
+	color: #debd1b;
+	font-weight: bold;
+	font-size: 15px;
+	margin-bottom: 5px;
+	border: 3px solid #172d52;
+	border-radius: 5px;
+}
+
+.widged ul {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	list-style-type: none;
+}
+
+.widged li {
+	padding: 0px 0px 0px 0px; 		/*top right bottom left*/
+	background-position: left;
+	background-repeat: no-repeat;
+	color: #333333;
+}
+
+.widged li a {
+	color : #333333;
+	border-bottom: 1px dotted #cccccc;
+	text-decoration: none;
+	display : block;
+	margin-bottom: 5px;
+	padding: 4px 5px 3px 10px;
+}
+
+.widged li a:hover {
+	color: blue;
+}
+
+
+#layout2{
+	background: #c5c8e3;
+	width: 860px;
+	text-align: left;
+	margin:auto;
+	margin-top: 2px;
+	padding: 2px;
+	padding-right: 342px;
+	border: 1px solid white;
+	border-radius: 5px;
+}
+
+
+
+/*pengaturan posting*/
+.isiposting{
+	margin-top: 5px;
+	margin-left: 5px;
+	background-color: #0e1c54;
+	width: 95%;
+	height: 150px;
+	margin-bottom: 10px;
+	padding: 20px;
+    text-align: justify;
+    border-radius: 5px;
+
+}
+
+.isiposting p{
+	text-indent: 4em;
+}
+
+.link1{
+	position: relative;
+	color: #debd1b;
+	background-color: #120947;
+	border: 2px solid #0c0340;
+	border-radius: 3px;
+}
+
+/*pengaturan gambar yang di halaman depan*/
+.gambardepan{
+	float: left;
+	height: 140px;
+	width : 150px;
+	margin-right: 5px;
+	margin-top : 3px;
+	padding: 1px;
+	border : 1px solid #dddddd;
+}
+
+
+
+/*pengaturan heading2 "Judul" */
+.isiposting h2 {
+	font-size: 20px;
+	font-weight: bold;
+	color: #ffffff;
+	margin-top: 4px;
+	margin-bottom: 3px;
+}
+
+.isiposting h1 {
+	font-weight: bold;
+	color: #ffffff;
+	margin-top: 4px;
+	margin-bottom: 3px;
+}
+
+/*pengaturan anchor atau link yang ada di isiposting */
+.isiposting a{
+	text-decoration: none;
+}
+.isiposting a:hover{
+	color: yellow;
+}
+
+/*bagian profile di index*/
+#layoutindex{
+	background: #c5c8e3;
+	width: 860px;
+	text-align: left;
+	margin:auto;
+	margin-top: 2px;
+	padding: 2px;
+	padding-right: 342px;
+	border: 1px solid white;
+	border-radius: 5px;
+}
+
+aside{
+	font-family: Sitka Text;
+	text-align: left;
+	background-color: white;
+	color: black;
+	position: relative;
+	left: 935px;
+	bottom: 4230px;
+	width: 23%;
+	border-radius: 5px;
+	padding-left: 20px;
+	border:2px solid #7f7e94;
+}
+
+.profile header {
+   text-align: center;
+}
+
+.profile img{
+	position: relative;
+	margin: auto;
+	width: 100px;
+	border-radius: 50%;
+}
+
+
+
+#footer{
+	width: 1210px;
+	height: 50px;
+	margin: auto;
+	margin-top: 3px;
+	padding-top: 30px;
+	background-color: #221852;
+	color: white;
+	font-size: 12pt;
+	text-align: center;
+	position: relative;
+	clear: both;
+	padding: auto;
+	border-radius: 5px;
+}
+
+
+
+
+
+/*penaturan tampilan isi kisah nabi*/
+.nabi {
+	background-color: #0e1c54;
+	width: 98%;
+	height: auto;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	padding: 5px;
+	text-indent: 4em;
+	border: 4px solid #091933;
+	border-radius: 5px;
+}
+.nabi h2{
+	text-align: center;
+	color: #debd1b;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.nabi p{
+	text-align: justify;
+}
+
+#hikmah{
+	color: red;
+	font-weight: bold;
+	margin-left: -50px;
+}
+
+#hikmah2 ol li{
+	text-indent: 0em;
+}
+
+.gambarnabi{
+	float: left;
+	height: 400px;
+	margin-right: 5px;
+	margin-top : 60px;
+	padding: 1px;
+	border: 1px solid #dddddd;
+}
+
+
+
+/*pengaturan nabi idris bagian padding*/
+#layoutIdris{
+	background: #c5c8e3;
+	width: 860px;
+	text-align: left;
+	margin: auto;
+	padding: 2px;
+	padding-right: 342px;
+	padding-bottom: 80px;
+}
+
+
+
+
+/*Bagian profil*/
+.profil{
+	position: relative;
+	width: 200px;
+	height: 250px;
+	float: right;
+	padding:1px;
+	border: 3px solid #d1d08c;
+	border-radius: 5px;
+	margin-right: 100px;
+}
+
+.nabi img{
+	border-radius: 5%;
+}
+
+.profil h2{
+	text-align: center;
+	color: maroon;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#layout3{
+	background: #c5c8e3;
+	width: 860px;
+	text-align: left;
+	margin:auto;
+	margin-top: 2px;
+	padding: 2px;
+	padding-right: 342px;
+	padding-bottom: 1550px;
+	border-radius: 5px;
+}
+
+
+/*Bagian  Menu Kontak*/
+
+#Kontak{
+	padding: 5px;
+	padding-bottom: 1550px;
+	width: 1190px;
+	height: auto;
+	background-color: white;
+	position: relative;
+	margin: auto;
+	font-size: 20px;
+	border: 1px solid #6b89bf;
+}
+
+.Kontak{
+	background-color: none;
+	width: 100%;
+	height: auto;
+	margin-bottom: 5px;
+}
+
+.Kontak h2{
+	background-color: #19123d;
+	height: 40px;
+	color: #debd1b;
+	text-align: center;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+.TabelKontak{
+	color: #0e1d36;
+	padding-left: 20px;
+}
+
+.Kolom1{
+	width: 20%;
+}
+
+.Kolom2{
+	width: 80%;
+}
+
+#layout4{
+	background: #c5c8e3;
+	width: 860px;
+	text-align: left;
+	margin:auto;
+	margin-top: 5px;
+	padding: 2px;
+	padding-right: 342px;
+	padding-bottom: 0px;
+	border-radius: 5px;
+}
